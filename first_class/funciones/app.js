@@ -3,3 +3,10 @@ function greet() {
 }
 
 greet(); //invokes
+
+//functions as parameters
+function logGreeting(fn) {
+    fn();
+}
+
+logGreeting(greet);
