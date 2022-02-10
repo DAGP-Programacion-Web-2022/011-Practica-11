@@ -17,3 +17,6 @@ let greetMe = function () {
 }
 
 greetMe();
+
+logGreeting(greetMe);
+//functions are first class, pass it as parameters
