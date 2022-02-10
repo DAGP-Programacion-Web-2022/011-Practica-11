@@ -10,3 +10,10 @@ function logGreeting(fn) {
 }
 
 logGreeting(greet);
+
+//function expression
+let greetMe = function () {
+    console.log('Hello from de function expression');
+}
+
+greetMe();
