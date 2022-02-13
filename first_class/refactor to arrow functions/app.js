@@ -1,10 +1,11 @@
+// Refactor to Arrow Functions
 let greet = () => console.log('Hello');
-greet();
+greet(); // Function 01
 
 let logGreeting = (fn) => fn();
-logGreeting(greet);
+logGreeting(greet); //Function 02
 
 let greetMe = () => console.log('Hello from de function expression');
-greetMe();
+greetMe(); //Function 03
 
-logGreeting(greetMe);
+logGreeting(greetMe); //Function 04
