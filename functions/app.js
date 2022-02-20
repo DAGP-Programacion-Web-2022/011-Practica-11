@@ -2,8 +2,10 @@
 let greet = () => console.log('Hello');
 greet(); // Function 01
 
-let logGreeting = (fn) => fn();
-logGreeting(greet); //Function 02
+let logGreeting = (miParametro) => miParametro();
+logGreeting(function () {
+    conesole.log(`Hello from a function created on the fly`)
+}); //Function 02
 
 let greetMe = () => console.log('Hello from de function expression');
 greetMe(); //Function 03
