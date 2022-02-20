@@ -1,1 +1,3 @@
-require('./greet.js');
+let greet = require('./greet');
+
+greet();
