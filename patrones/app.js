@@ -18,3 +18,8 @@ greet.greeting = "Hello from the app";
 
 let greet3b = require('./greet3');
 greet3b.greet();
+
+// greet4
+const Greet4 = require('./greet4');
+let myGreet = new (Greet4);
+myGreet.greet();
