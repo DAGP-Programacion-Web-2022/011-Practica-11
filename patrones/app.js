@@ -23,3 +23,7 @@ greet3b.greet();
 const Greet4 = require('./greet4');
 let myGreet = new (Greet4);
 myGreet.greet();
+
+//greet5
+const greet5 = require('./greet5');
+greet5.greet();
