@@ -12,3 +12,9 @@ greet();
 greet2a.greet();
 console.log(greet3);
 greet3.greet();
+
+//Agregando mas lineas
+greet.greeting = "Hello from the app";
+
+let greet3b = require('./greet3');
+greet3b.greet();
