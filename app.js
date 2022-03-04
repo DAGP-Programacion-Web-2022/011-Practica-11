@@ -45,8 +45,10 @@ console.log(myArray[2]["mouseOver"]);
 // Code line to evoke anonymous function the "myArray" array in 3 position.
 console.log(myArray[3]());
 
+// Array Initialized
 let funcArray = [];
 
+// Initialized 3 similar console.log and pushed into "funcArray" array.
 funcArray.push(() => {
    console.log("Function 1");
 });
@@ -57,4 +59,8 @@ funcArray.push(() => {
 
 funcArray.push(() => {
    console.log("Function 3");
+});
+
+funcArray.forEach(element => {
+    element();
 });
