@@ -64,3 +64,25 @@ funcArray.push(() => {
 funcArray.forEach(element => {
     element();
 });
+
+import Emitter from "./emisor/emitter.mjs";
+
+var emtr = new Emitter();
+
+emtr.on('greet', () => {
+    console.log('Somewhere, someone said hello.');
+});
+
+emtr.on('greet', () => {
+    console.log('A greeting ocurred');
+});
+
+console.log('Hello');
+emtr.emit('greet');
+
+emtr.on('jump', () => {
+    console.log('Someone jumped!');
+});
+
+console.log(emtr);
+emtr.emit('jump');
