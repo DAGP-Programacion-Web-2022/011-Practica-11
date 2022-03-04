@@ -45,11 +45,16 @@ console.log(myArray[2]["mouseOver"]);
 // Code line to evoke anonymous function the "myArray" array in 3 position.
 console.log(myArray[3]());
 
+let funcArray = [];
 
-// myArray.push(()=>console.log("F1"));
-// myArray.push(()=>console.log("F2"));
-// myArray.push(()=>console.log("F3"));
+funcArray.push(() => {
+   console.log("Function 1");
+});
 
-// myArray.forEach(element => {
-//    element(); 
-// });
+funcArray.push(() => {
+   console.log("Function 2");
+});
+
+funcArray.push(() => {
+   console.log("Function 3");
+});
