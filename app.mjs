@@ -65,24 +65,31 @@ funcArray.forEach(element => {
     element();
 });
 
+// Imported Emitter.mjs
 import Emitter from "./emisor/emitter.mjs";
 
+// Initialized Emitter in a new variable.
 var emtr = new Emitter();
 
+// Testing Emitter functions / ON functions allows to add properties to that variable initialized
 emtr.on('greet', () => {
     console.log('Somewhere, someone said hello.');
 });
 
+// Testing Emitter functions / ON functions allows to add properties to that variable initialized
 emtr.on('greet', () => {
     console.log('A greeting ocurred');
 });
 
+// Testing Emitter functions / EMIT functions allows to show properties to that variable initialized
 console.log('Hello');
 emtr.emit('greet');
 
+// Testing Emitter functions / ON functions allows to add properties to that variable initialized
 emtr.on('jump', () => {
     console.log('Someone jumped!');
 });
 
+// Testing Emitter functions / EMIT functions allows to show properties to that variable initialized
 console.log(emtr);
 emtr.emit('jump');
