@@ -66,7 +66,7 @@ funcArray.forEach(element => {
 });
 
 // Imported Emitter.mjs
-import Emitter from "./emisor/emitter.mjs";
+// import Emitter from "./emisor/emitter.mjs";
 
 // Initialized Emitter in a new variable.
 var emtr = new Emitter();

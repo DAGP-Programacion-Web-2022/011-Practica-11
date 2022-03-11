@@ -1,0 +1,22 @@
+{
+  "name": "007-practica-7",
+  "version": "1.0.0",
+  "description": "Practica-7",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DAGP-Programacion-Web-2022/007-Practica-7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DAGP-Programacion-Web-2022/007-Practica-7/issues"
+  },
+  "homepage": "https://github.com/DAGP-Programacion-Web-2022/007-Practica-7#readme",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
