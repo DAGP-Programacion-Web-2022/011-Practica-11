@@ -1,17 +1,17 @@
 // Modules imported
-import events from './config.js'
-
+import events from './config.mjs'
+import Emitter from './emisor/emitter.mjs'
 
 // Initialized Emitter in a new variable.
 var emtr = new Emitter();
 
 // Testing Emitter functions / ON functions allows to add properties to that variable initialized
-emtr.on('greet', () => {
+emtr.on(events.GREET, () => {
     console.log('Somewhere, someone said hello.');
 });
 
 // Testing Emitter functions / ON functions allows to add properties to that variable initialized
-emtr.on('greet', () => {
+emtr.on(events.GREET, () => {
     console.log('A greeting ocurred');
 });
 
@@ -20,7 +20,7 @@ console.log('Hello');
 emtr.emit('greet');
 
 // Testing Emitter functions / ON functions allows to add properties to that variable initialized
-emtr.on('jump', () => {
+emtr.on(events.JUMP, () => {
     console.log('Someone jumped!');
 });
 

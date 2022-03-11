@@ -1,5 +1,6 @@
-export const 
-    events = {
+const events = {
         GREET: 'greet',
         JUMP: 'jump'
-    };
+};
+
+export default events;
