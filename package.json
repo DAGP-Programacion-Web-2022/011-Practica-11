@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "**Instrucciones:** En tu carpeta de trabajo, crea una carpeta llamada httpServer y haz los siguiente:",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
