@@ -1,0 +1,22 @@
+{
+  "name": "008-practica-8",
+  "version": "1.0.0",
+  "description": "**Instrucciones:** En tu carpeta de trabajo, crea una carpeta llamada httpServer y haz los siguiente:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DAGP-Programacion-Web-2022/008-Practica-8.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DAGP-Programacion-Web-2022/008-Practica-8/issues"
+  },
+  "homepage": "https://github.com/DAGP-Programacion-Web-2022/008-Practica-8#readme",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
