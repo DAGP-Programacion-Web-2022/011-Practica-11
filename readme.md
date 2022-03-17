@@ -12,7 +12,7 @@
 
 ## Practica #9 : Middleware Express
 
-**Instrucciones:** En tu carpeta de trabajo, crea una carpeta llamada httpServer y haz los siguiente:
+**Instrucciones:**
 
 - En tu directorio de trabajo crea el directorio practica_9.
 - Cambiate al directorio “practica_9” e inicializa NPM (npm init -y).
