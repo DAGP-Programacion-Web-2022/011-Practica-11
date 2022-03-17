@@ -6,9 +6,22 @@ const app = new express();
 // This variable assigns the port that express will be using.
 let port = process.env.PORT || 3000;
 
+
+app.use('/assets', express.static('./public'));
+
+app.use('/', (req, res) => {
+    console.log(`Request Url ${req.url}`);
+    next();
+});
+
 // Sending information to the server and route assignation (HTML).
 app.get('/', (req, res) => {
-    res.send('<!DOCTYPE html><head></head><body>Hello World!</body></html>');
+    res.send(`<!DOCTYPE html>
+    <head>
+    <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>Hello World!</body>
+    </html>`);
 });
 
 // Sending information to the server and route assignation (JSON).
