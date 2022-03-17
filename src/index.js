@@ -11,9 +11,6 @@ app.get('/', (req, res) => {
     res.send('<!DOCTYPE html><head></head><body>Hello World!</body></html>');
 });
 
-// This function assigns the port that express will be using, port parameter was assigned in port variable.
-app.listen(port);
-
 // Sending information to the server and route assignation (JSON).
 app.get('/api', (req, res) => {
     res.json({ firstname: 'John', lastname: 'Doe'});
@@ -23,3 +20,6 @@ app.get('/api', (req, res) => {
 app.get('/person/:id', (req, res) => {
     res.send(`<!DOCTYPE html><head></head><body><h1>Persona solicitada: ${req.params.id} </h1></body></html>`);
 });
+
+// This function assigns the port that express will be using, port parameter was assigned in port variable.
+app.listen(port);
