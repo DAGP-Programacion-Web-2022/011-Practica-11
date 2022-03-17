@@ -14,7 +14,7 @@
 
 **Instrucciones:**
 
-- En tu directorio de trabajo crea el directorio practica_10.
+- En tu directorio de trabajo crea el directorio practica_10. 
 - Cambiate al directorio “practica_10” e inicializa NPM (npm init -y).
 - Instala el paquete “express” desde la línea de comando.
 - Instala el paquete “nodemon” desde la línea de comando de forma global (bandera -g).
